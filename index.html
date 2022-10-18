@@ -575,6 +575,46 @@
           </svg>
         </button>
       </div>
+      <div class="modal-form">
+        <form class="js-speaker-form">
+          <p>Залиште свої дані, ми вам передзвонимо</p>
+
+          <ul>
+            <li class="modal-item">
+              <label for="name">Ім'я</label>
+              <input type="text" name="name" id="name" />
+            </li>
+            <li class="modal-item">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel" />
+            </li>
+            <li class="modal-item">
+              <label for="mail">Пошта</label>
+              <input type="email" name="mail" id="mail" />
+            </li>
+          </ul>
+
+          <input
+            type="checkbox"
+            name="topic"
+            value="Приймаю умови договору"
+            id="topic"
+          />
+          <label for="topic"
+            >Погоджуюся з розсилкою та приймаю
+            <a href="#">Умови договору</a></label
+          >
+          <label for="comment">Коментар</label>
+          <textarea
+            name="comment"
+            id="comment"
+            rows="10"
+            placeholder="Введіть текст"
+          ></textarea>
+
+          <button type="submit">Відправити</button>
+        </form>
+      </div>
     </div>
 
     <script src="./js/modal.js"></script>
