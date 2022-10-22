@@ -564,6 +564,26 @@
             </ul>
           </div>
         </div>
+        <div class="footer-newsletter">
+          <p class="footer-title-newsletter">Підпишіться на розсилку</p>
+          <input
+            type="email"
+            class="footer-input"
+            name="mail"
+            id="mail"
+            placeholder="E-mail"
+          />
+          <label for="mail" class="footer-label"></label>
+          <button type="submit" class="footer-button">
+            Підписатися<svg
+              class="icon-button-newsletter"
+              width="24px"
+              height="24px"
+            >
+              <use href="./images/symbol-defs.svg#icon-send-telegram"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
 
@@ -577,42 +597,59 @@
       </div>
       <div class="modal-form">
         <form class="js-speaker-form">
-          <p>Залиште свої дані, ми вам передзвонимо</p>
+          <div class="modal-form-title">
+            <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+          </div>
 
-          <ul>
-            <li class="modal-item">
-              <label for="name">Ім'я</label>
-              <input type="text" name="name" id="name" />
+          <ul class="list">
+            <li class="form-item">
+              <svg class="icon-form" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-person"></use>
+              </svg>
+              <input type="text" class="form-input" name="name" id="name" />
+              <label for="name" class="form-label">Ім'я</label>
             </li>
-            <li class="modal-item">
-              <label for="tel">Телефон</label>
-              <input type="tel" name="tel" id="tel" />
+            <li class="form-item">
+              <svg class="icon-form" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <input type="tel" class="form-input" name="tel" id="tel" />
+              <label for="tel" class="form-label">Телефон</label>
             </li>
-            <li class="modal-item">
-              <label for="mail">Пошта</label>
-              <input type="email" name="mail" id="mail" />
+            <li class="form-item">
+              <svg class="icon-form" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-email"></use>
+              </svg>
+              <input type="email" class="form-input" name="mail" id="mail" />
+              <label for="mail" class="form-label">Пошта</label>
             </li>
           </ul>
 
-          <input
-            type="checkbox"
-            name="topic"
-            value="Приймаю умови договору"
-            id="topic"
-          />
-          <label for="topic"
-            >Погоджуюся з розсилкою та приймаю
-            <a href="#">Умови договору</a></label
-          >
-          <label for="comment">Коментар</label>
-          <textarea
-            name="comment"
-            id="comment"
-            rows="10"
-            placeholder="Введіть текст"
-          ></textarea>
+          <div class="form-comment">
+            <label for="comment" class="form-label-comment">Коментар</label>
+            <textarea
+              class="form-comment-textarea"
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
 
-          <button type="submit">Відправити</button>
+          <label class="form-topic">
+            <svg class="icon-checkbox" width="16px" height="15px">
+              <use href="./images/symbol-defs.svg#icon-vector"></use>
+            </svg>
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="topic"
+              value="Приймаю умови договору"
+            />Погоджуюся з розсилкою та приймаю
+            <a class="form-link" href="#">Умови договору</a></label
+          >
+
+          <button type="submit" class="form-button">Відправити</button>
         </form>
       </div>
     </div>
