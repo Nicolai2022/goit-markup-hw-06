@@ -636,18 +636,50 @@
             ></textarea>
           </div>
 
-          <label class="form-topic">
+          <label class="chec">
+            <input class="check-input" type="checkbox" />
+            <span class="check-box"
+              ><svg class="icon-checkbox" width="16px" height="15px">
+                <use href="./images/symbol-defs.svg#icon-vector"></use></svg
+            ></span>
+          </label>
+          <label class="chec">
+            <input class="check-input" type="checkbox" checked />
+            <span class="check-box"
+              ><svg class="icon-checkbox" width="16px" height="15px">
+                <use href="./images/symbol-defs.svg#icon-vector"></use></svg
+            ></span>
+          </label>
+          <label class="chec">
+            <input class="check-input" type="checkbox" disabled />
+            <span class="check-box"></span>
+          </label>
+          <label class="chec">
+            <input class="check-input" type="checkbox" checked disabled />
+            <span class="check-box"></span>
+          </label>
+          <div class="check-title">
+            Погоджуюся з розсилкою та приймаю
+            <a class="form-link" href="#">Умови договору</a>
+          </div>
+
+          <!-- <label class="form-topic">
             <svg class="icon-checkbox" width="16px" height="15px">
               <use href="./images/symbol-defs.svg#icon-vector"></use>
             </svg>
             <input
               class="checkbox"
               type="checkbox"
+              checked
+              disabled
               name="topic"
               value="Приймаю умови договору"
             />Погоджуюся з розсилкою та приймаю
             <a class="form-link" href="#">Умови договору</a></label
           >
+          <svg class="icon-check-on" width="16px" height="15px">
+            <use href="./images/symbol-defs.svg#icon-check"></use>
+          </svg> -->
 
           <button type="submit" class="form-button">Відправити</button>
         </form>
