@@ -1075,6 +1075,7 @@ textarea {
 } */
 
 .checkbox:checked + .icon-box {
+  background-color: var(--accent-color);
   fill: var(--accent-color);
   border: none;
 }
@@ -1112,4 +1113,8 @@ textarea {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: underline;
+}
+
+.icon-checkbox-on {
+  fill: transparent;
 }
