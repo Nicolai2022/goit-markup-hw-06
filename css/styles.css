@@ -1059,6 +1059,11 @@ textarea {
   background-color: #188ce8;
 }
 
+/* .icon-checkbox {
+  position: absolute;
+  top: 0%;
+  left: 15px;
+} */
 
 .checkbox {
   -webkit-appearance: none;
@@ -1066,10 +1071,4 @@ textarea {
   appearance: none;
 
   position: absolute;
-}
-
-.icon-checkbox {
-  position: absolute;
-  top: 0%;
-  left: 15px;
 }
