@@ -738,6 +738,13 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+
+  transition: fill 250ms var(--transform-function);
+}
+
+.button-close:hover,
+.button-close:focus {
+  fill: var(--accent-color);
 }
 
 /* ховер та підкреслення для cторінок Студія Портфоліо Контакти */
@@ -1025,71 +1032,6 @@ textarea {
   margin-top: 20px;
 }
 
-/* .checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  position: absolute;
-}
-
-.icon-checkbox {
-  position: absolute;
-  top: 0%;
-  left: 15px;
-}
-
-.checkbox:checked + .icon-check-on {
-  background-image: url(./images/symbol-defs.svg#icon-check);
-} */
-
-.check-input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  position: absolute;
-}
-
-.check-box {
-  position: absolute;
-  width: 1em;
-  height: 1em;
-  /* background-color: tomato; */
-  background-image: url(/images/symbol-defs.svg#icon-vector);
-}
-
-.icon-checkbox {
-  position: absolute;
-  width: 1em;
-  height: 1em;
-  background-image: url(/images/symbol-defs.svg#icon-vector);
-}
-
-.check-title {
-  margin-left: 25px;
-}
-
-.check-input:checked + .icon-checkbox {
-  background-image: url(/images/symbol-defs.svg#icon-check);
-}
-
-.check-input:focus + .icon-checkbox {
-  background-image: url(/images/off-focused.symbol-defs.svg#icon-check);
-}
-
-.check-input:checked:focus + .icon-checkbox {
-  background-image: url(/images/on-focused.symbol-defs.svg#icon-check);
-}
-
-.check-input:disabled + .icon-checkbox {
-  background-image: url(/images/off-focused.symbol-defs.svg#icon-check);
-}
-
-.check-input:checked:disabled + .icon-checkbox {
-  background-image: url(/images/on-focused.symbol-defs.svg#icon-vector);
-}
-
 .form-button {
   padding: 10px 52px;
   font-weight: 700;
@@ -1115,4 +1057,19 @@ textarea {
 .form-button:hover,
 .form-button:focus {
   background-color: #188ce8;
+}
+
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+}
+
+.icon-checkbox {
+  position: absolute;
+  top: 0%;
+  left: 15px;
 }
