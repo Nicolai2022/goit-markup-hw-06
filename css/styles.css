@@ -1069,10 +1069,10 @@ textarea {
   align-items: center;
 }
 
-.icon-checkbox {
+/* .icon-checkbox {
   display: inline-block;
   background-color: tomato;
-}
+} */
 
 .checkbox:checked + .icon-box {
   fill: var(--accent-color);
@@ -1095,12 +1095,6 @@ textarea {
   top: 0%;
   left: 20px;
 }
-
-/* .icon-checkbox-on {
-  position: absolute;
-  top: 0%;
-  right: 22px;
-} */
 
 .form-text {
   font-size: 14px;
