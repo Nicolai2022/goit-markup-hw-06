@@ -1059,16 +1059,31 @@ textarea {
   background-color: #188ce8;
 }
 
-/* .icon-checkbox {
-  position: absolute;
-  top: 0%;
-  left: 15px;
-} */
-
 .checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
   position: absolute;
+}
+
+.checkbox-icon {
+  display: inline-block;
+  background-color: tomato;
+}
+
+.checkbox:checked + .icon-checkbox-on {
+  background-image: url(/images/symbol-defs.svg#icon-check);
+}
+
+.icon-checkbox {
+  position: absolute;
+  top: 0%;
+  right: 22px;
+}
+
+.icon-checkbox-on {
+  position: absolute;
+  top: 0%;
+  right: 22px;
 }
