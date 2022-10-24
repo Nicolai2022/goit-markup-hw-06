@@ -833,6 +833,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .footer-button {
@@ -913,6 +914,7 @@ textarea {
 }
 
 .form-input {
+  padding-left: 42px;
   margin-bottom: 29px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1043,6 +1045,8 @@ textarea {
   background-color: #188ce8;
 }
 
+/* форми чекбокс */
+
 .checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1067,17 +1071,14 @@ textarea {
   /* padding-left: 40px; */
   margin-top: 20px;
   align-items: center;
+  justify-content: center;
 }
-
-/* .icon-checkbox {
-  display: inline-block;
-  background-color: tomato;
-} */
 
 .checkbox:checked + .icon-box {
   background-color: var(--accent-color);
   fill: var(--accent-color);
   border: none;
+  cursor: pointer;
 }
 
 .icon-box {
@@ -1089,6 +1090,7 @@ textarea {
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .icon-checkbox {
@@ -1103,6 +1105,7 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-left: -10px;
+  cursor: pointer;
 }
 
 .form-link {
