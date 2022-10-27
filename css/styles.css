@@ -826,15 +826,17 @@ img {
   color: var(--primery-white-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 4);
+  /* line-height: calc(16 / 4); */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
   /* margin-bottom: 20px; */
 }
 
 .footer-input {
   width: 358px;
   height: 50px;
+  padding-left: 16px;
 
   background-color: var(--hero-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1015,9 +1017,9 @@ textarea {
   top: 44%;
   transform: translateY(150%); */
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+  /* font-family: 'Roboto';
+  font-style: normal; */
+  /* font-weight: 400; */
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
@@ -1079,7 +1081,7 @@ textarea {
   color: var(--title-text-color);
 
   /* padding-left: 40px; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
   align-items: center;
   justify-content: center;
 }
