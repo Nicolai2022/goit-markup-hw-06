@@ -642,7 +642,8 @@ img {
 
 .portfolio-link {
   display: block;
-}transition: transform 250ms var(--transform-function);
+}
+
 
 .filter-list {
   display: flex;
@@ -650,6 +651,8 @@ img {
   flex-wrap: wrap;
   margin-bottom: 50px;
   gap: 8px;
+
+  /* transition: transform 250ms var(--transform-function); */
   /* background-color: teal; */
 }
 
