@@ -637,12 +637,12 @@ img {
 .cards-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: transform 250ms var(--transform-function);
+  
 }
 
 .portfolio-link {
   display: block;
-}
+}transition: transform 250ms var(--transform-function);
 
 .filter-list {
   display: flex;
@@ -693,6 +693,8 @@ img {
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.2);
+
+  transition: opacity 250ms var(--transform-function);
 }
 
 /* .backdrop {
@@ -715,29 +717,34 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  min-width: 528px;
+  width: 528px;
   min-height: 581px;
   padding: 40px;
 
   background-color: var(--primery-white-color);
 }
 
-.icon-button-close {
-  padding: 6px 6px;
+/* .icon-button-close {
+
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+ 
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-}
+} */
 
 .button-close {
-  padding: 8px 8px;
+  /* padding: 8px 8px; */
   border: none;
   background: var(--primery-white-color);
   position: absolute;
   top: 8px;
   right: 8px;
+   width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ 
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 
   transition: fill 250ms var(--transform-function);
 }
@@ -878,22 +885,16 @@ img {
 textarea {
   resize: none;
 }
-
+/* 
 .modal-form {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+ padding: 40px;
 
-  width: 528px;
-  height: 581px;
-  margin-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  /* min-width: 528px;
-  min-height: 581px;
-  padding: 40px; */
-}
+  width: 100%;
+} */
 
 .form-title {
   font-weight: 700;
@@ -907,10 +908,21 @@ textarea {
 
 .modal-form-title {
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
 }
 
-.form-list {
+/* .form-list {
   margin-top: 30px;
+} */
+
+.modal-form-input {
+  position: relative;
 }
 
 .form-input {
@@ -942,10 +954,10 @@ textarea {
 
 .icon-form {
   position: absolute;
-  top: 40%;
-  left: 10px;
+  top: 60%;
+  left: 15px;
   cursor: pointer;
-  transform: translateY(-100%);
+  transform: translateY(-60%);
 
   transition: fill 250ms var(--transform-function);
 }
@@ -1002,8 +1014,8 @@ textarea {
 
 .form-label-comment {
   position: absolute;
-  top: 41%;
-  transform: translateY(50%);
+  top: 44%;
+  transform: translateY(150%);
 
   font-family: 'Roboto';
   font-style: normal;
