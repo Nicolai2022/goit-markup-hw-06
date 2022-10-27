@@ -969,15 +969,12 @@ textarea {
 }
 
 .form-label {
-  position: absolute;
-  left: 0px;
+  /* position: absolute; */
+  /* left: 0px; */
   /* top: 10%; */
 
-  transform: translateY(-110%);
+  /* transform: translateY(-110%); */
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
@@ -986,6 +983,7 @@ textarea {
 }
 
 .form-comment-textarea {
+  display: block;
   width: 448px;
   height: 120px;
 
@@ -1013,9 +1011,9 @@ textarea {
 }
 
 .form-label-comment {
-  position: absolute;
+  /* position: absolute;
   top: 44%;
-  transform: translateY(150%);
+  transform: translateY(150%); */
 
   font-family: 'Roboto';
   font-style: normal;
